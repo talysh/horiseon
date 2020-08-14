@@ -3,15 +3,22 @@
 
 <head>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Horiseon Official Website.</title>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
   <!-- Display header and navigation options   -->
 
-  <nav>
+  <!-- <nav>
     <h1>HORI<span class="seo">SEO</span>N</h1>
     <div>
       <ul>
@@ -26,65 +33,96 @@
         </li>
       </ul>
     </div>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <h1>HORI<span class="seo">SEO</span>N</h1>
+
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item px-4">
+          <a class="nav-link navmenus" href="#search-engine-optimization">Search Engine Optimization</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link navmenus" href="#online-reputation-management">Online Reputation Management</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link navmenus" href="#social-media-marketing">Social Media Marketing</a>
+        </li>
+      </ul>
+    </div>
   </nav>
+
+
 
   <header>
     <!-- Background photo is inserted using CSS -->
   </header>
 
-  <!-- Display main section describing offered services -->
 
-  <main>
-    <div class="content-item" id="search-engine-optimization">
-      <img src="assets/images/search-engine-optimization.jpg" alt="Search engine optimization image." class="float-left">
-      <h2>Search Engine Optimization</h2>
-      <p>
-        The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right
-        customers for your business.
-      </p>
-    </div>
-    <div class="content-item" id="online-reputation-management">
-      <img src="assets/images/online-reputation-management.jpg" alt="Online reputation management image." class="float-right">
-      <h2>Online Reputation Management</h2>
-      <p>
-        The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential
-        customers see when they search for your business.
-      </p>
-    </div>
-    <div class="content-item" id="social-media-marketing">
-      <img src="assets/images/social-media-marketing.jpg" alt="Social media marketing image." class="float-left">
-      <h2>Social Media Marketing</h2>
-      <p>
-        Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-      </p>
-    </div>
-  </main>
+ <div>
+<!-- Display main section describing offered services -->
+<main>
+  <div class="content-item" id="search-engine-optimization">
+    <img src="assets/images/search-engine-optimization.jpg" alt="Search engine optimization image." class="float-left">
+    <h2>Search Engine Optimization</h2>
+    <p>
+      The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right
+      customers for your business.
+    </p>
+  </div>
+  <div class="content-item" id="online-reputation-management">
+    <img src="assets/images/online-reputation-management.jpg" alt="Online reputation management image." class="float-right">
+    <h2>Online Reputation Management</h2>
+    <p>
+      The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential
+      customers see when they search for your business.
+    </p>
+  </div>
+  <div class="content-item" id="social-media-marketing">
+    <img src="assets/images/social-media-marketing.jpg" alt="Social media marketing image." class="float-left">
+    <h2>Social Media Marketing</h2>
+    <p>
+      Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+    </p>
+  </div>
+</main>
 
-  <!-- Display side section describing benefits of services provided -->
+<!-- Display side section describing benefits of services provided -->
 
-  <aside>
-    <div class="benefit-item">
-      <h3>Lead Generation</h3>
-      <img src="assets/images/lead-generation.png" alt="Lead generation image.">
-      <p>
-        Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-      </p>
-    </div>
-    <div class="benefit-item">
-      <h3>Brand Awareness</h3>
-      <img src="assets/images/brand-awareness.png" alt="Brand awareness image.">
-      <p>
-        Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-      </p>
-    </div>
-    <div class="benefit-item">
-      <h3>Cost Management</h3>
-      <img src="assets/images/cost-management.png" alt="Cost management image.">
-      <p>
-        As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-      </p>
-    </div>
-  </aside>
+<aside>
+  <div class="benefit-item">
+    <h3>Lead Generation</h3>
+    <img src="assets/images/lead-generation.png" alt="Lead generation image.">
+    <p>
+      Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+    </p>
+  </div>
+  <div class="benefit-item">
+    <h3>Brand Awareness</h3>
+    <img src="assets/images/brand-awareness.png" alt="Brand awareness image.">
+    <p>
+      Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+    </p>
+  </div>
+  <div class="benefit-item">
+    <h3>Cost Management</h3>
+    <img src="assets/images/cost-management.png" alt="Cost management image.">
+    <p>
+      As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+    </p>
+  </div>
+</aside>
+
+
+ </div>
+
+
 
 
   <!-- Copyright section and contact us -->
